@@ -1,6 +1,4 @@
-Group Project 3
-
-CHICAGO CRIME ANALYSIS
+--Group Project 3--CHICAGO CRIME ANALYSIS--
 
 -REQUIREMENTS-
 
