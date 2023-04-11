@@ -1,0 +1,16 @@
+#custom-bg {
+    background-image: url('https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/35892328_10155212664256534_3873888070939967488_n.jpg?stp=dst-jpg_s552x414&_nc_cat=108&ccb=1-7&_nc_sid=8024bb&_nc_ohc=JjA0g0fYY6gAX-hGrfw&_nc_ht=scontent-hou1-1.xx&edm=AN6jzzQEAAAA&oh=00_AfBU3B8stqLoFgFFcdTWiFZezy1RzBe6UJGg5h2xx2Dpvg&oe=645C11FC');
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text {
+    font-weight: bold;
+    font-size: large;
+}
+
+
