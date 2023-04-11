@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Chicago Narcotics Data Analysis</title>
+		
+	<!-- Our own CSS stylesheet -->
+	<link rel="stylesheet" href="./chicago_narcotics.css" media="screen">
+ 	
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	<script src="script.js"></script>
 </head>
-<body>
+<body id="custom-bg">
 	<h1>Chicago Narcotics Data Analysis</h1>
 	<div>
 		<label for="drug-select">Filter by Narcotic:</label>
 		<select id="drug-select">
 			<option value="All Drugs">All Drugs</option>
-			<option value="Heroin">Heroin</option>
-			<option value="Cocaine">Cocaine</option>
-			<option value="Cannabis">Cannabis</option>
-			<option value="Crack">Crack</option>
-			<option value="Methamphetamines">Methamphetamines</option>
-			<option value="Hallucinigens">Hallucinigens</option>
 			<option value="Barbituates">Barbituates</option>
+			<option value="Cannabis">Cannabis</option>
+			<option value="Cocaine">Cocaine</option>
+			<option value="Crack">Crack</option>
+			<option value="Hallucinogens">Hallucinogens</option>
+			<option value="Heroin">Heroin</option>		
+			<option value="Methamphetamines">Methamphetamines</option>		
 		</select>
 	</div>
 	<div>
@@ -41,38 +49,44 @@
 			<option value="2015">2015</option>
 			<option value="2016">2016</option>
 			<option value="2017">2017</option>
+		</select>
 	</div>
 	<div>
-		<label for="District-select">Filter by District:</label>
-		<select id="District-select">
-			<option value="All Years">All Years</option>
-			<option value="1">District-1</option>
-			<option value="2">District-2</option>
-			<option value="3">District-3</option>
-			<option value="4">District-4</option>
-			<option value="5">District-5</option>
-			<option value="6">District-6</option>
-			<option value="7">District-7</option>
-			<option value="8">District-8</option>
-			<option value="9">District-9</option>
-			<option value="10">District-10</option>
-			<option value="11">District-11</option>
-			<option value="12">District-12</option>
-			<option value="13">District-3</option>
-			<option value="14">District-14</option>
-			<option value="15">District-15</option>
-			<option value="16">District-16</option>
-			<option value="17">District-17</option>
-			<option value="18">District-18</option>
-			<option value="19">District-19</option>
-			<option value="20">District-20</option>
-			<option value="21">District-21</option>
-			<option value="22">District-22</option>
-			<option value="23">District-23</option>
-			<option value="24">District-24</option>
-			<option value="25">District-25</option>
+		<label for="district-select">Filter by District:</label>
+		<select id="district-select">
+			<option value="All Districts">All Districts</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+		</select>
 	</div>
 	<div id="map"></div>
 	<div id="chart"></div>
+
+	<script src="chicago_narcotics.js"></script>
 </body>
 </html>
+
+  
